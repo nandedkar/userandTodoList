@@ -1,0 +1,63 @@
+.header{
+    padding: 10px;
+    ul.tabs{
+        padding: 0;
+            li{
+                list-style: none;
+                display: inline-block;
+                a{
+                    padding: 10px 20px;
+                }
+            }
+            li a.active{
+                border-bottom: 2px solid blue;
+
+            }
+    }
+    .User-wrapper{
+        padding: 10px 0;
+        button{
+            margin:  10px 0;
+        }
+        table{
+            width: 40%;
+            thead{
+                tr{
+                    background-color: lightgrey;
+                    border-bottom: 2px solid gray;
+                    th{
+                        padding: 15px;
+                        width: 50%;
+                    }
+                }
+            }
+        }
+    }
+    .todo-wrapper{
+        padding: 10px 0;
+        button{
+            margin:  10px 0;
+        }
+        table{
+            width: 40%;
+            thead{
+                tr{
+                    background-color: lightgrey;
+                    border-bottom: 2px solid gray;
+                    th{
+                        padding: 15px;
+                        width: 25%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.ReactModalPortal{
+    .close-button{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+}
