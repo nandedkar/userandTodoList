@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { Provider } from 'react-redux';
 import store from './redux/store'
+import './bootstrap.css';
 import './App.scss'
+
 
 import Header from './common/Header';
 class App extends Component {
